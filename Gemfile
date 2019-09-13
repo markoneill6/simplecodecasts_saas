@@ -10,6 +10,10 @@ gem 'sqlite3', '~> 1.4', group: [:development, :test]
 
 # User bootstrap library for styles
 gem 'bootstrap-sass', '~> 3.4.1'
+gem 'sassc-rails', '>= 2.1.0'
+
+# Use jquery-rails for JS on styles
+gem 'jquery-rails'
 
 # Use postgresql as the database for production
 group :production do
