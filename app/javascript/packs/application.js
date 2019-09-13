@@ -3,15 +3,11 @@
 // a relevant structure within app/javascript and only use these pack files to reference
 // that code so it'll be compiled.
 
-require("jquery")
 require("@rails/ujs").start()
-require("bootstrap-sprockets")
 require("turbolinks")
 require("@rails/activestorage").start()
 require("channels")
 
-// Added "Jquery and "bootstrap-sprockets" and still not working
-// Removed .start() after turbolinks
 
 // Uncomment to copy all static images under ../images to the output folder and reference
 // them with the image_pack_tag helper in views (e.g <%= image_pack_tag 'rails.png' %>)

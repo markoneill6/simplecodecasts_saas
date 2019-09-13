@@ -15,6 +15,9 @@ gem 'sassc-rails', '>= 2.1.0'
 # Use jquery-rails for JS on styles
 gem 'jquery-rails'
 
+# User Sprockets
+gem 'sprockets', '~> 3.7.2'
+
 # Use postgresql as the database for production
 group :production do
   gem 'pg'
