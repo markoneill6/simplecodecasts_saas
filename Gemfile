@@ -12,6 +12,9 @@ gem 'sqlite3', '~> 1.4', group: [:development, :test]
 gem 'bootstrap-sass', '~> 3.4.1'
 gem 'sassc-rails', '>= 2.1.0'
 
+# Use for font awesome library for icons
+gem 'font-awesome-sass', '4.2.0'
+
 # Use jquery-rails for JS on styles
 gem 'jquery-rails'
 
