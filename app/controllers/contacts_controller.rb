@@ -31,6 +31,11 @@ class ContactsController < ApplicationController
     @contact = Contact.new(contact_params)
 
     if @contact.save
+      #Parameters passed into email notification
+      name = params[:contact][:name]
+      email = params[:contact][:email]
+      body = params[:contact][:comments]
+
       flash[:success] = 'Message Sent.'
       redirect_to new_contact_path
     else
