@@ -21,6 +21,9 @@ gem 'jquery-rails'
 # User Sprockets
 gem 'sprockets', '~> 3.7.2'
 
+# User authentication
+gem 'devise'
+
 # Use postgresql as the database for production
 group :production do
   gem 'pg'
