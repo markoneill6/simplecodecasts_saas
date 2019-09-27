@@ -25,7 +25,7 @@ gem 'sprockets', '~> 3.7.2'
 gem 'devise'
 
 # Use Stripe for Payment
-gem 'stripe', '~> 1.16.1'
+gem 'stripe', '~> 5.2.0'
 
 # Use Figaro to hide secret keys
 gem 'figaro', '~> 1.0.0'
