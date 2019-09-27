@@ -24,6 +24,12 @@ gem 'sprockets', '~> 3.7.2'
 # User authentication
 gem 'devise'
 
+# Use Stripe for Payment
+gem 'stripe', '~> 1.16.1'
+
+# Use Figaro to hide secret keys
+gem 'figaro', '~> 1.0.0'
+
 # Use postgresql as the database for production
 group :production do
   gem 'pg'
@@ -37,7 +43,7 @@ gem 'sass-rails', '~> 5'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
 gem 'webpacker', '~> 4.0'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
-gem 'turbolinks', '~> 5'
+# gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.7'
 # Use Redis adapter to run Action Cable in production
